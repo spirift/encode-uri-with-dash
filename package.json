@@ -1,0 +1,20 @@
+{
+  "name": "encode-uri-with-dash",
+  "version": "1.0.0",
+  "description": "Encodes URIs but places spaces with dashes for better SEO",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "uri",
+    "encode",
+    "encoding",
+    "seo"
+  ],
+  "author": "Michael Burson",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
