@@ -1,6 +1,6 @@
 {
   "name": "encode-uri-with-dash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encodes URIs but places spaces with dashes for better SEO",
   "main": "index.js",
   "scripts": {
