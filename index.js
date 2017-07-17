@@ -1,6 +1,6 @@
-const encodeURICompWithDash = string => encodeURIComponent(string.replace(/ /g, '-'));
+const encodeURICompWithDash = function(string){ return encodeURIComponent(string.replace(/ /g, '-')); }
 
-const encodeURIWithDash = string => encodeURI(string.replace(/ /g, '-'));
+const encodeURIWithDash = function(string){ return encodeURI(string.replace(/ /g, '-')); }
 
 module.exports = {
   encodeURICompWithDash: encodeURICompWithDash,
